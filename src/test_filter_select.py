@@ -35,7 +35,9 @@ def filter_select_ufo_pl():
     count = df_ufo_pl.filter(pl.col('country') == 'us').select(pl.col('state')).n_unique()
     return count
 
-filter_select_pd()
-filter_select_pl()
-filter_select_ufo_pd()
-filter_select_ufo_pl()
+
+def run_tests():
+    filter_select_pd()
+    filter_select_pl()
+    filter_select_ufo_pd()
+    filter_select_ufo_pl()

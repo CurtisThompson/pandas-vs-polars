@@ -34,7 +34,8 @@ def group_median_pl():
     return med
 
 
-group_mean_pd()
-group_mean_pl()
-group_median_pd()
-group_median_pl()
+def run_tests():
+    group_mean_pd()
+    group_mean_pl()
+    group_median_pd()
+    group_median_pl()

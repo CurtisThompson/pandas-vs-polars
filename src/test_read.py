@@ -16,5 +16,6 @@ def load_data_pl():
     return df
 
 
-load_data_pd()
-load_data_pl()
+def run_tests():
+    load_data_pd()
+    load_data_pl()
