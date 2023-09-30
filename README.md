@@ -17,3 +17,6 @@ The following datasets are used in the experiments.
 
 **StudentsPerformance.csv**  
 *Sample exam scores for students of different demographics. 8 columns. 1000 rows. 70 KB. [Source (Version 1)](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)*
+
+**ufo_sightings.csv**
+*Data on UFO sightings across five countries. 11 columns. 69586 rows. 13 MB [Source (Scrubbed Version 2)](https://www.kaggle.com/datasets/NUFORC/ufo-sightings?select=scrubbed.csv)*
