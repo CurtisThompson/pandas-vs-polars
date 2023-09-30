@@ -1,0 +1,11 @@
+name: pandas-vs-polars-test
+
+channels:
+ - conda-forge
+ - defaults
+
+dependencies:
+ - python=3.10
+ - pandas=2.1.1
+ - polars=0.19.3
+ - pyyaml=6.0
