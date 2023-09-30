@@ -1,4 +1,4 @@
-from src import test_read, test_filter_select, test_group_aggregation
+from src import test_read, test_filter_select, test_group_aggregation, test_rolling_window
 
 
 # TEST: Load Data
@@ -11,4 +11,8 @@ print()
 
 # TEST: Group And Aggregate
 test_group_aggregation.run_tests()
+print()
+
+# TEST: Rolling Mean
+test_rolling_window.run_tests()
 print()
